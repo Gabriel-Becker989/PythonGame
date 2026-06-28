@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5631437-f2cc-4400-ace4-f72eddaf9499" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/code/__init__.py" afterDir="false" />
+    <list default="true" id="c5631437-f2cc-4400-ace4-f72eddaf9499" name="Changes" comment="Adding classes generated from StarUML">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,61 +38,61 @@
 }]]></component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0142965426931054" />
-      <entry key="MS500" value="1.6663100693705553" />
-      <entry key="S2" value="2.9697119374296808" />
-      <entry key="S5" value="3.525902504093173" />
-      <entry key="S10" value="3.7511193137622083" />
-      <entry key="S30" value="4.093878373064959" />
-      <entry key="S60" value="5.517512739689783" />
-      <entry key="M2" value="9.502906356707523" />
-      <entry key="M5" value="20.16332707223624" />
-      <entry key="M10" value="30.143473779395432" />
-      <entry key="M15" value="35.25356975803494" />
-      <entry key="M30" value="41.728301957250935" />
-      <entry key="H1" value="45.60720222644637" />
-      <entry key="H2" value="47.734774735232" />
-      <entry key="H4" value="48.84956871774006" />
-      <entry key="D1" value="49.8057327945872" />
-      <entry key="W1" value="49.972184900452596" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000703808374236" />
+      <entry key="S2" value="1.351794283003105" />
+      <entry key="S5" value="2.270442928485787" />
+      <entry key="S10" value="3.0866040545030757" />
+      <entry key="S30" value="4.904510975037091" />
+      <entry key="S60" value="6.186950875582491" />
+      <entry key="M2" value="8.086229731606059" />
+      <entry key="M5" value="12.951874646361077" />
+      <entry key="M10" value="17.01992534247924" />
+      <entry key="M15" value="19.04341931404483" />
+      <entry key="M30" value="23.591342616664086" />
+      <entry key="H1" value="33.39730487519408" />
+      <entry key="H2" value="46.537134571655436" />
+      <entry key="H4" value="57.73802639931477" />
+      <entry key="D1" value="70.84945928692868" />
+      <entry key="W1" value="73.53775248552061" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="4.2827037025114166E-104" />
-      <entry key="S2" value="1.4385650577442764E-26" />
-      <entry key="S5" value="4.604386828544284E-11" />
-      <entry key="S10" value="6.785563225366252E-6" />
-      <entry key="S30" value="0.018931947893292403" />
-      <entry key="S60" value="0.1375934151523699" />
-      <entry key="M2" value="0.3709358639338745" />
-      <entry key="M5" value="0.6725421842762822" />
-      <entry key="M10" value="0.8200866931466952" />
-      <entry key="M15" value="0.8761393307652963" />
-      <entry key="M30" value="0.9360231464901368" />
-      <entry key="H1" value="0.9674828920917087" />
-      <entry key="H2" value="0.9836070821683365" />
-      <entry key="H4" value="0.9917696719341321" />
-      <entry key="D1" value="0.9986235508085703" />
-      <entry key="W1" value="0.9998032483056121" />
+      <entry key="MS500" value="1.5130662599961494E-202" />
+      <entry key="S2" value="3.50723193345916E-51" />
+      <entry key="S5" value="6.57636326435752E-21" />
+      <entry key="S10" value="8.109477951358844E-11" />
+      <entry key="S30" value="4.3284356545111104E-4" />
+      <entry key="S60" value="0.020804892824792712" />
+      <entry key="M2" value="0.14423901283908147" />
+      <entry key="M5" value="0.4609280279062312" />
+      <entry key="M10" value="0.6790651332388549" />
+      <entry key="M15" value="0.7752653211975721" />
+      <entry key="M30" value="0.9318355015857925" />
+      <entry key="H1" value="1.1675758721582954" />
+      <entry key="H2" value="1.4479101870568585" />
+      <entry key="H4" value="1.6765733234661682" />
+      <entry key="D1" value="1.9379287001092333" />
+      <entry key="W1" value="1.9909080209894534" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.972882817289344" />
-      <entry key="MS500" value="1.651474406506147" />
-      <entry key="S2" value="2.962824364796185" />
-      <entry key="S5" value="3.5226127666424913" />
-      <entry key="S10" value="3.749372926933868" />
-      <entry key="S30" value="4.110931472354816" />
-      <entry key="S60" value="5.647887526177016" />
-      <entry key="M2" value="9.858969547387845" />
-      <entry key="M5" value="20.81578876725049" />
-      <entry key="M10" value="30.94697064926691" />
-      <entry key="M15" value="36.116486599648205" />
-      <entry key="M30" value="42.65637816760045" />
-      <entry key="H1" value="46.57032007627198" />
-      <entry key="H2" value="48.71609317204406" />
-      <entry key="H4" value="49.840166435583086" />
-      <entry key="D1" value="50.804157085098204" />
-      <entry key="W1" value="50.971959585355236" />
+      <entry key="MS100" value="0.02997700372891451" />
+      <entry key="MS500" value="0.4963934128878828" />
+      <entry key="S2" value="1.159728675608028" />
+      <entry key="S5" value="2.152407689452306" />
+      <entry key="S10" value="3.0051737290739817" />
+      <entry key="S30" value="4.853039302622603" />
+      <entry key="S60" value="6.171307854728022" />
+      <entry key="M2" value="8.203407809099906" />
+      <entry key="M5" value="13.394627616947943" />
+      <entry key="M10" value="17.6873932858586" />
+      <entry key="M15" value="19.810191115863788" />
+      <entry key="M30" value="24.518090437329434" />
+      <entry key="H1" value="34.56140950658895" />
+      <entry key="H2" value="47.982682095831684" />
+      <entry key="H4" value="59.41315033482456" />
+      <entry key="D1" value="72.7870940533201" />
+      <entry key="W1" value="75.52861698114857" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -108,7 +116,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "D:/Facul/Projetos/PythonGame",
+    "last_opened_file_path": "D:/Facul/Projetos/PythonGame/code",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -120,6 +128,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Facul\Projetos\PythonGame\code" />
       <recent name="D:\Facul\Projetos\PythonGame" />
     </key>
   </component>
@@ -137,7 +146,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1782597633835</updated>
-      <workItem from="1782597634825" duration="3570000" />
+      <workItem from="1782597634825" duration="4234000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -155,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782598765902</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding classes generated from StarUML">
+      <option name="closed" value="true" />
+      <created>1782605506423</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1782605506423</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,9 +191,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Adding classes generated from StarUML" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding classes generated from StarUML" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonGame$main.coverage" NAME="main Coverage Results" MODIFIED="1782598441272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonGame$main.coverage" NAME="main Coverage Results" MODIFIED="1782605753746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
